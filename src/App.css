@@ -1,0 +1,46 @@
+:root {
+  --customBlack: #363636;
+  --mainBlack: black;
+  --fontRed: #c70505;
+  --fontWhite: #dad6d6;
+}
+
+body {
+  font-family: "Shadows Into Light", cursive !important;
+  background: var(--mainBlack) !important;
+  color: var(--fontRed) !important;
+}
+
+.text-title {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-white {
+  color: var(--fontWhite);
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--fontWhite) !important;
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--fontWhite) !important;
+}
+
+.btn-black:hover {
+  background: var(--fontWhite);
+  color: var(--mainBlack) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--fontRed);
+}
+
+.url-color {
+  color: var(--fontWhite);
+}
